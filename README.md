@@ -9,7 +9,7 @@ To write a python program to perform stop and wait protocol
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
 ## PROGRAM
-import time
+```import time
 class StopAndWaitProtocol:
     def __init__(self):
         self.timeout = 1
@@ -37,7 +37,7 @@ if __name__ == "__main__":
     
     for frame in frames_to_send:
         protocol.send(frame)
-
+```
 ## OUTPUT
 ![Screenshot (139)](https://github.com/RahulvVenugopal/2a_Stop_and_Wait_Protocol/assets/144132514/6a8d8bf3-1fbe-45bb-9d32-b1d3252e0df3)
 
