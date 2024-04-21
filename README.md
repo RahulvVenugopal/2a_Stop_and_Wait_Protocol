@@ -39,9 +39,9 @@ print(s.recv(1024).decode())
 s.send("Acknowledgement Recived".encode())
 ```
 ## OUTPUT
-# CLIENT:
+## CLIENT:
 ![Screenshot (174)1](https://github.com/RahulvVenugopal/2a_Stop_and_Wait_Protocol/assets/144132514/23a81fd4-fcf6-487b-87d5-191a2935043e)
-# SERVER:
+## SERVER:
 ![Screenshot (174)2](https://github.com/RahulvVenugopal/2a_Stop_and_Wait_Protocol/assets/144132514/7bd712e4-7bde-4364-bef7-94e4d830f697)
 
 
